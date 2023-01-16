@@ -1,0 +1,27 @@
+{
+  "name": "yjs-textarea-react",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "server": "npx y-websocket HOST=localhost PORT=1234",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "yjs": "^13.5.41",
+    "y-websocket": "^1.4.5",
+    "y-protocols": "^1.0.5",
+    "y-indexeddb": "^9.0.9"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
